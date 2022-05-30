@@ -1,0 +1,159 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat';
+
+}
+
+
+
+.nav {
+    height: 180px;
+    width: 100%;
+    background-color: rgb(188, 214, 205);
+    display: flex;
+    margin: 0px;
+    position: fixed;
+
+}
+
+.logo_img {
+    margin-top: 15px;
+    filter: blur(2);
+    
+}
+
+
+#navlogo:hover {
+    text-shadow: yellowgreen -2px 0, 2px 0;
+
+}
+
+
+
+.narv_area {
+    display: flex;
+    float: right;
+    margin-top: 10px;
+    padding-right: 15px 20px;
+
+}
+
+
+.narv_area a {
+    color: blue;
+    list-style: none;
+    font-size: 17px;
+    padding: 20px 15px;
+    text-decoration: none;
+    position: relative;
+    bottom: 150px;
+
+}
+
+
+
+.narv_area li a:hover {
+
+    background: lightgray;
+    color: #333;
+    box-sizing: border-box;
+
+}
+
+
+
+ul {
+    padding: 0px;
+    margin: 0 0 0 150px;
+    list-style: none;
+}
+
+#navlogo {
+    font-size: 20px;
+    position: relative;
+    left: 110px;
+    bottom: 90px;
+    color: firebrick;
+    letter-spacing: 2px;
+    text-shadow: lightyellow 0 0, cyan 0 0;
+    transition: text-shadow 200ms;
+}
+
+
+
+
+
+.wrapper {
+
+    width: 1170px;
+    margin: auto;
+}
+
+
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("/1.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    
+}
+
+
+
+.Main-content {
+    position: relative;
+    bottom: 30px;
+    margin: 20% 20%;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+
+.M1 {
+    text-align: center;
+    color: yellowgreen;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+
+
+.Ite-Oku {
+    color: greenyellow;
+    text-decoration: none;
+}
+
+
+.M3 {
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+    background-color: red;
+}
+
+.M3:hover {
+    background: lightyellow;
+    color: #333;
+    box-sizing: border-box;
+}
+
+
+/*#footer{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}*/
